@@ -69,8 +69,12 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
+  gem 'rspec-rails'
 end
 
 gem 'devise', '~> 4.9'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
+
+gem 'database_cleaner'
+

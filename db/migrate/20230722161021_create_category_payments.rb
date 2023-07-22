@@ -8,5 +8,5 @@ class CreateCategoryPayments < ActiveRecord::Migration[7.0]
     end
   end
 
- # remove_reference :payments, :category, foreign_key: true
+  remove_reference :payments, :category, foreign_key: true
 end

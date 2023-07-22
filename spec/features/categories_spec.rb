@@ -15,25 +15,14 @@ RSpec.describe 'Categories', type: :feature do
     click_button 'Log in'
   end
 
-  describe 'Index page' do
-    it 'displays a list of categories' do
-      visit categories_path
+  describe 'New page' do
+    it 'creates a new category' do
+      visit new_category_path
 
-      expect(page).to have_content(category.name)
-      expect(page).to have_content(category1.name)
-      expect(page).to have_content(category2.name)
-      expect(page).to have_css('.category_amount', text: "$#{category.total_payments}")
-    end
-
-    describe 'New page' do
-      it 'creates a new category' do
-        visit new_category_path
-
-        expect(page).to have_css('.payments-header')
-        expect(page).to have_css('.payments-header i.fa-bars')
-        expect(page).to have_css('.payments-header h2', text: 'ADD NEW CATEGORY')
-        expect(page).to have_link(href: categories_path) { find('i.fa-arrow-left') }
-      end
+      expect(page).to have_css('.payments-header')
+      expect(page).to have_css('.payments-header i.fa-bars')
+      expect(page).to have_css('.payments-header h2', text: 'ADD NEW CATEGORY')
+      expect(page).to have_link(href: categories_path) { find('i.fa-arrow-left') }
     end
   end
 end

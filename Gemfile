@@ -79,4 +79,6 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 
 gem 'database_cleaner'
 
+gem 'activesupport', '7.0.8'
+
 gem 'cancancan'

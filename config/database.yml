@@ -18,6 +18,4 @@ test:
 
 production:
   <<: *default
-  database: pesamentordb
-  username: postgres
-  password: HenryDB
+  url: <%= ENV['DATABASE_URL'] %>

@@ -1,7 +1,7 @@
 databases:
   - name: pesamentor
     databaseName: pesamentordb
-    user: postgres
+    user: pesamentor
 
 services:
   - type: web

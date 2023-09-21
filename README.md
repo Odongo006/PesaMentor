@@ -38,7 +38,9 @@
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## Project Presentation [@Presentation](https://www.loom.com/share/a3df505bc87b4fd0ad7f21b8848c0e99?sid=1932d964-4abd-472d-b8f6-ff1593e4b530)
+
+ ## 🚀 Live Demo <a name="live-demo"></a>
 
 - Not available -->
 
@@ -88,7 +90,7 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Kevin Toro**
+👤 **Henry Omondi**
 - GitHub: [@Odongo006](https://github.com/Odongo006)
 - Twitter: [@HenryOdongo](https://twitter.com/@HenryOdongo007)
 - LinkedIn: [@HenryOdongo](https://www.linkedin.com/in/henry-odongo/)

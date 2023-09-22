@@ -121,7 +121,7 @@ If you like this project give this repo a star and reach out on our social media
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank the Microverse team for their invaluable resources
+I would like to thank Microverse for this project and [Gregoire Vella](https://www.behance.net/gregoirevella)on Behance for the original design idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
